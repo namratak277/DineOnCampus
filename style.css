@@ -1,0 +1,130 @@
+/* Color Palette
+E7E6DD
+E8C766
+E8AF30
+3361AC
+162F65
+0F2043
+*/
+.color {
+    --color1: #E7E6DD;
+    --color2: #E8C766;
+    --color3: #E8AF30;
+    --color4: #3361AC;
+    --color5: #162F65;
+    --color6: #0F2043;
+}
+
+body{
+    background-color: #E7E6DD;
+}
+
+h1{
+    color: #3361AC;
+    text-align: center;
+    background-color: #E8C766;
+}
+
+h3{
+    color: #E7E6DD;
+    text-align: center;
+    background-color: #162F65;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Intro{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #E8C766;
+    border-radius: 10px;
+    color: #162F65;
+    border: #3361AC solid 2px;
+}
+
+.Restaurant{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    background-color: #3361AC;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.Restaurant img{
+   width: 300px;
+   height: 200px;
+   border-radius: 15px;
+   flex-wrap: wrap;
+}
+
+.Restaurant {
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.left {
+  display: flex;
+  flex-direction: column; 
+  flex: 2;
+}
+
+.left-top {
+  border-radius: 10px;
+  border: #162F65 solid 2px;
+  padding: 5px;
+  background-color: #E8C766;
+  display: block;
+}
+
+.left-bottom {
+  color: #162F65;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.MenuItem {
+  display: flex;
+  align-items: center; 
+  gap: 5px;
+  text-align: center;
+}
+
+.menu-image img{
+  width: 80px;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 10px; 
+  flex: 1;
+}
+
+.menu-text {
+  flex: 5;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
