@@ -23,6 +23,7 @@ h1{
     color: #3361AC;
     text-align: center;
     background-color: #E8C766;
+     border: #3361AC dashed 2px;
 }
 
 h3{
@@ -34,11 +35,10 @@ h3{
     margin: 10px;
 }
 
-.Intro{
+.Intro, .closing, .info{
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 20px;
-    padding: 10px;
     background-color: #E8C766;
     border-radius: 10px;
     color: #162F65;
@@ -122,7 +122,7 @@ h3{
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     flex-direction: column; 
     align-items: center;
